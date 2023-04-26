@@ -1,0 +1,37 @@
+.bg-lt-blue {
+  background-color: #89c4e2;
+}
+
+.bg-white{
+  background-color: #ffffff;
+}
+
+.bg-gray{
+  background-color: #364049;
+}
+
+.btn-color{
+  background-color: #609abf;
+}
+
+body{
+  background-color: #f1ecec;
+}
+
+.bg-image{
+  background-image: url("play-video.png");
+}
+
+.img-top-rnd{
+  border-top-left-radius: 15%;
+  border-top-right-radius: 15%;
+}
+
+button:hover{
+  background-color: #ffffff;
+  box-shadow: 5em 1em black;
+}
+
+.test:hover{
+  box-shadow: 1px 1px 1px black;
+}
