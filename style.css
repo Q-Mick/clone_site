@@ -1,3 +1,5 @@
+
+
 .bg-lt-blue {
   background-color: #89c4e2;
 }
@@ -11,15 +13,18 @@
 }
 
 .btn-color{
-  background-color: #609abf;
+  background-color: #5288aa;
 }
 
 body{
   background-color: #f1ecec;
 }
 
-.bg-image{
-  background-image: url("play-video.png");
+.img-play{
+  border-top-left-radius: 22%;
+  border-top-right-radius: 22%;
+  border-bottom-left-radius: 22%;
+  border-bottom-right-radius: 22%;
 }
 
 .img-top-rnd{
@@ -27,11 +32,15 @@ body{
   border-top-right-radius: 15%;
 }
 
-button:hover{
+
+.btn-hov:hover{
   background-color: #ffffff;
-  box-shadow: 5em 1em black;
+  outline: 2px solid black;;
+  box-shadow: 0.5em 0.5em black;
 }
 
-.test:hover{
-  box-shadow: 1px 1px 1px black;
+.btn-hov2:hover{
+  background-color: #5288aa;
+  outline: 2px solid black;;
+  box-shadow: 0.5em 0.5em black;
 }
